@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  hideNav = true;
+  // @ViewChild('mySidepanel') mySidepanel: ElementRef;
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  openNav() {
+    this.hideNav = true;
   }
 
+  closeNav() {
+    // document.getElementById('mySidepanel').style.width = '0';
+  }
 }

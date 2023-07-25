@@ -1,1 +1,57 @@
-<p>header works!</p>
+<div class="ss-container">
+  <div class="header-2">
+    <div class="logo-container">
+      <a routerLink="/"
+        ><img src="../../../../assets/images/dv.png" class="logo"
+      /></a>
+    </div>
+    <div id="nav" class="nav">
+      <ul class="links">
+        <li>
+          <a [routerLink]="['/home']">Home</a>
+        </li>
+        <li>
+          <a [routerLink]="['/services']">Services</a>
+        </li>
+        <li>
+          <a [routerLink]="['/products']">Products</a>
+        </li>
+        <li>
+          <a [routerLink]="['/about-us']">About Us</a>
+        </li>
+        <li>
+          <a [routerLink]="['/careers']">Careers</a>
+        </li>
+        <li>
+          <a [routerLink]="['/contact-us']">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- <div class="mobile-outer">
+    <nav role="navigation">
+      <div id="menuToggle" [ngClass]="{ 'menu-open': hideNav }">
+        <input type="checkbox" [(ngModel)]="hideNav" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul
+          id="menu"
+          class="mobile-menu"
+          [ngClass]="{ 'mobile-menu-open': hideNav }"
+        >
+          <li><a [routerLink]="['/dashboard']">Dashboard</a></li>
+          <li><a [routerLink]="['/members']">Members</a></li>
+          <li><a [routerLink]="['/accounts']">Accounts</a></li>
+          <li><a [routerLink]="['/loans']">Loans</a></li>
+          <li><a [routerLink]="['/sales']">Sales</a></li>
+          <li><a [routerLink]="['/society-ops']">Society Ops</a></li>
+          <li><a [routerLink]="['/admin']">Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+     <div id="mobile-nav" class="mobile-header grid" style="--bs-columns: 3">
+      <img src="{{ imageUrl + 'ss-m.png' }}" class="logo" />
+    </div> 
+  </div> -->
+</div>
