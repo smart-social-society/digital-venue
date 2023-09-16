@@ -20,7 +20,6 @@ h1 {
 }
 
 .logo {
-  width: 91px;
   height: 64px;
 }
 
@@ -143,14 +142,17 @@ h1 {
     }
   }
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 620px) {
   .logo {
     text-align: center;
     margin-left: 24%;
   }
+  #menuToggle {
+    display: block !important;
+  }
 }
 #menuToggle {
-  display: block;
+  display: none;
   position: absolute;
   top: 24px;
   left: 24px;

@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { NavigationStart, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,14 +7,20 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  hideNav = false;
+  showNav = false;
   // @ViewChild('mySidepanel') mySidepanel: ElementRef;
-  constructor() {}
+  constructor(private _router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this._router.events.subscribe((event) => {
+      if (event instanceof NavigationStart) {
+        this.showNav = false;
+      }
+    });
+  }
 
   openNav() {
-    this.hideNav = true;
+    this.showNav = true;
   }
 
   closeNav() {

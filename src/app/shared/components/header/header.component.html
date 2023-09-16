@@ -2,7 +2,7 @@
   <div class="header-2">
     <div class="logo-container">
       <a routerLink="/"
-        ><img src="../../../../assets/images/dv.png" class="logo"
+        ><img src="../../../../assets/images/mf.jpg" class="logo"
       /></a>
     </div>
     <div id="nav" class="nav">
@@ -27,15 +27,15 @@
   </div>
   <div class="mobile-outer">
     <nav role="navigation">
-      <div id="menuToggle" [ngClass]="{ 'menu-open': hideNav }">
-        <input type="checkbox" [(ngModel)]="hideNav" />
+      <div id="menuToggle" [ngClass]="{ 'menu-open': showNav }">
+        <input type="checkbox" [(ngModel)]="showNav" />
         <span></span>
         <span></span>
         <span></span>
         <ul
           id="menu"
           class="mobile-menu"
-          [ngClass]="{ 'mobile-menu-open': hideNav }"
+          [ngClass]="{ 'mobile-menu-open': showNav }"
         >
           <li>
             <a [routerLink]="['/home']">Home</a>
@@ -56,7 +56,7 @@
       </div>
     </nav>
     <div id="mobile-nav" class="mobile-header grid" style="--bs-columns: 3">
-      <img src="../../../../assets/images/dv.png" class="logo" />
+      <img src="../../../../assets/images/mf.jpg" class="logo" />
     </div>
   </div>
 </div>
