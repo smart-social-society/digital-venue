@@ -6,7 +6,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  hideNav = true;
+  hideNav = false;
   // @ViewChild('mySidepanel') mySidepanel: ElementRef;
   constructor() {}
 

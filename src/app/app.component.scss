@@ -2,3 +2,10 @@
   min-height: 600px;
   margin: 40px 10%;
 }
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    min-height: 600px;
+    margin: 20px 4%;
+  }
+}
