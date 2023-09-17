@@ -1,18 +1,36 @@
-.aboutus-maindiv{
-    padding-top: 150px;
-    background-color:white;
-    background-image:url(../../../assets/images/career.png);
-    border:1px solid black;
-    width:1187px;
-    height:517px;
+.careers-top-section{    
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(../../../assets/images/career.png);
+    border: 1px solid black;
+    height: 400px;
     text-align: center;
-    font-size:18px;
-    border-radius:300px;
+    font-size: 18px;    
 }
-.aboutus-h1{
+.careers-p-section{
+    color: #fff;
+}
+.careers-top-section-h1 {
     font-size: 100px;
 }
-
-.aboutus-p{
-    color: #fff;
+@media screen and (max-width: 480px) {
+    .careers-top-section{  
+        border-radius: 10px;
+        background-color: white;
+        background-image: url(../../../assets/images/career.png);
+        border: 1px solid black;   
+        text-align: center;
+        font-size: 18px;
+        height: 150px;
+        }
+    
+        .careers-top-section-h1 {
+            font-size: 40px;
+        }
+    
+        
+        .careers-p-section{
+            color: #fff;
+            text-align: justify;
+        }
 }
