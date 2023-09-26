@@ -23,7 +23,7 @@
   height: 250px;
   width: 260px;
   margin: 20px 20px;
-  background-color: #9966ff;
+  background-color: #2d67bc;
   color: #fff;
   padding: 10px 20px;
 
@@ -36,7 +36,7 @@
   display: inline-block;
   width: 250px;
   margin: 20px 20px;
-  background-color: #9966ff;
+  background-color: #2d67bc;
   color: #fff;
   padding: 10px 20px;
   img {
@@ -49,10 +49,10 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .card {
     width: 100%;
-    background-color: #9966ff;
+    background-color: #2d67bc;
     color: #fff;
     padding: 10px 20px;
     margin: 12px 6px;
