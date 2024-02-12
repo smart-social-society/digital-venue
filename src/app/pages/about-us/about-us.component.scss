@@ -1,95 +1,94 @@
-.aboutus-top-section{    
+.aboutus-top-section {
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../../../assets/images/aboutuseight.png);
+  border: 1px solid black;
+  height: 325px;
+  text-align: center;
+  font-size: 18px;
+}
+.about-us-image-two {
+  display: block;
+}
+.service-subsection-image-div {
+  display: inline-flex;
+}
+.about-us-subsection-h2 {
+  font-family: sans-serif !important;
+}
+.about-us-top {
+  text-align: left;
+  margin-top: 10px;
+}
+.aboutus-p-section {
+  color: #fff;
+  width: 40%;
+}
+.aboutus-top-section-h1 {
+  font-size: 64px;
+  margin-left: 10%;
+}
+
+.about-subsection-p {
+  font-size: 20px;
+}
+.about-subsection-div {
+  display: inline-flex;
+  width: 80%;
+}
+
+.about-subsection-div3 {
+  width: 870px;
+}
+.about-subsection-image {
+  width: 150px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .about-us-top {
+    text-align: left;
+    margin-top: 0px;
+  }
+  .service-subsection-image-div {
+    display: grid;
+  }
+  .aboutus-top-section {
     border-radius: 10px;
     background-color: white;
     background-image: url(../../../assets/images/aboutuseight.png);
     border: 1px solid black;
-    height: 325px;
     text-align: center;
-    font-size: 18px;    
-}
-.about-us-image-two{
-    display:block;
-}
-.service-subsection-image-div{
-    display: inline-flex;
-}
-.about-us-subsection-h2{
-    font-family: sans-serif !important;    
-}
-.about-us-top{
-    text-align: left;
-    margin-top:10px;
-}
-.aboutus-p-section{
+    font-size: 18px;
+    height: 260px;
+  }
+
+  .aboutus-top-section-h1 {
+    font-size: 40px;
+  }
+
+  .aboutus-p-section {
     color: #fff;
-    width:40%;
-}
-.aboutus-top-section-h1 {
-    font-size: 100px;
-}
-
-.about-subsection-p{
+    text-align: justify;
+    width: 100%;
+  }
+  .about-us-image-two {
+    display: none;
+  }
+  .about-subsection-p {
     font-size: 20px;
-}
- .about-subsection-div{
-    display: inline-flex;
-    width: 80%; 
- }
+  }
 
- .about-subsection-div3{
-    width: 870px;
- }
- .about-subsection-image{
-    width: 150px; 
-    border-radius: 10px
- }
-@media screen and (max-width: 480px) {
+  .about-subsection-div {
+    display: block;
+    width: 100%;
+  }
 
-    .about-us-top{
-        text-align: left;
-        margin-top:0px;
-    }
-    .service-subsection-image-div{
-        display: grid;
-    }
-    .aboutus-top-section{  
-        border-radius: 10px;
-        background-color: white;
-        background-image: url(../../../assets/images/aboutuseight.png);
-        border: 1px solid black;   
-        text-align: center;
-        font-size: 18px;
-        height: 260px;
-        }
-    
-        .aboutus-top-section-h1 {
-            font-size: 40px;
-        }
-    
-        
-        .aboutus-p-section{
-            color: #fff;
-            text-align: justify;            
-            width:100%;
-        }
-        .about-us-image-two{
-            display:none;
-        }
-        .about-subsection-p{
-            font-size: 20px;
-        }
+  .about-subsection-div3 {
+    width: 100%;
+  }
 
-        .about-subsection-div{
-            display: block;
-            width: 100%; 
-         }
-
-         .about-subsection-div3{
-            width: 100%;
-         }
-
-         .about-subsection-image{
-            width: 150px; 
-            border-radius: 10px
-         }
+  .about-subsection-image {
+    width: 150px;
+    border-radius: 10px;
+  }
 }
