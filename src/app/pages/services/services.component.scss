@@ -42,12 +42,14 @@
     border: 1px solid black;
     text-align: center;
     font-size: 18px;
-    height: 320px;
+    height: auto;
+    padding: 0 1%;
   }
 
   .service-top-section-h1 {
     font-size: 40px;
-    margin-top: 0px;
+    text-align: center;
+    margin-left: 0;
   }
 
   .service-subsection-h2 {
